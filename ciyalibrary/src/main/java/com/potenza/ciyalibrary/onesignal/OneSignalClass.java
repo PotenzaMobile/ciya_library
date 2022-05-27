@@ -20,14 +20,14 @@ public class OneSignalClass {
     }
 
     public void initilizationOneSignal(Context context,String appId){
-        Log.e(TAG, "Onesignal class is calling: ");
+        Log.e(TAG, "One Signal class is calling: "+"Yes");
 
         OneSignal.setLogLevel(OneSignal.LOG_LEVEL.ERROR, OneSignal.LOG_LEVEL.NONE);
 
         OneSignal.initWithContext(context);
 
         OneSignal.setAppId(appId);
-        Log.e(TAG, "onCreate: " + Constant.ONE_SIGNAL_APP_ID);
+        Log.e(TAG, "One Signal class: " + Constant.ONE_SIGNAL_APP_ID);
     }
 
 }

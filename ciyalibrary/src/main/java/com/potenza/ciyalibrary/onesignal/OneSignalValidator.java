@@ -13,12 +13,12 @@ public class OneSignalValidator {
 
     public OneSignalClass validator(Context context, Boolean isCalling, String appId) {
         if (isCalling) {
-            com.example.libtest.Constant.ONE_SIGNAL_APP_ID = appId;
-            Log.e(TAG, "validator: " + com.example.libtest.Constant.ONE_SIGNAL_APP_ID);
-            Log.e(TAG, "validator: " + "Class is calling");
+            Constant.ONE_SIGNAL_APP_ID = appId;
+            Log.e(TAG, "One Signal Validator: " + Constant.ONE_SIGNAL_APP_ID);
+            Log.e(TAG, "One Signal Validator: " + "Class is calling");
             return new OneSignalClass(context);
         } else {
-            Log.e(TAG, "validator: " + "class is not calling");
+            Log.e(TAG, "One Signal Validator: " + "class is not calling");
             return null;
         }
     }
