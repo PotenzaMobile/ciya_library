@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "154840012011",
+    "project_id": "ciya-library",
+    "storage_bucket": "ciya-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154840012011:android:2db97b1aba0432f7b3daae",
+        "android_client_info": {
+          "package_name": "com.example.ciyalibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154840012011-pb278pr5dn3i1jc7sv0u6bgl1eeajmqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDOMK2nYfzIZSeM6ajcZ_mkuhetYRID-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154840012011-pb278pr5dn3i1jc7sv0u6bgl1eeajmqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

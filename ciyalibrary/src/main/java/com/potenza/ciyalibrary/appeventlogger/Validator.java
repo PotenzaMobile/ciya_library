@@ -10,7 +10,7 @@ public class Validator {
 
     private static final String TAG = "Validator";
 
-    public AppEventLogger validator(Context context, boolean flag) {
+    public AppEventLogger validator(Context context, boolean isCalling) {
         if (isCalling) {
             Log.e(TAG, "validator: " + "Class is calling");
             return new AppEventLogger(context);
